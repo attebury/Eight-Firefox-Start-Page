@@ -78,7 +78,7 @@ button{
 	position: absolute;
 	left:0px;
 	top:0px;
-	background:url('../lib/1.png')/*#409da5*/;
+	/*background:url('../lib/1.png')/*#409da5/;*/
 	line-height: 103px;
 }
 
@@ -93,7 +93,7 @@ button{
 	position: absolute;
 	left:0px;
 	top:113px;
-	background:url('../lib/2.png')/*#4849a6*/;
+	/*background:url('../lib/2.png')/*#4849a6/;*/
 	line-height:102px;
 }
 
@@ -108,7 +108,7 @@ button{
 	position: absolute;
 	left:225px;
 	top:0px;
-	background:url('../lib/3.png')/*#cd432d*/;
+	/*background:url('../lib/3.png')/*#cd432d/;*/
 	line-height:65px;
 }
 
@@ -123,7 +123,7 @@ button{
 	position: absolute;
 	left:375px;
 	top:0px;
-	background:url('../lib/4.png')/*#da8515*/;
+	/*background:url('../lib/4.png')/*#da8515/;*/
 	line-height:65px;
 }
 
@@ -138,7 +138,7 @@ button{
 	position: absolute;
 	left:225px;
 	top:75px;
-	background:url('../lib/5.png')/*#7d9f2a*/;
+	/*background:url('../lib/5.png')/*#7d9f2a/;*/
 	line-height:140px;
 }
 
@@ -153,7 +153,7 @@ button{
 	position: absolute;
 	left:525px;
 	top:0px;
-	background:url('../lib/6.png')/*#672c9b*/;
+	/*background:url('../lib/6.png')/*#672c9b/;*/
 	line-height:215px;
 }
 
@@ -168,7 +168,7 @@ button{
 	position: absolute;
 	left:0px;
 	top:225px;
-	background:url('../lib/7.png')/*#621354*/;
+	/*background:url('../lib/7.png')/*#621354/;*/
 	line-height:160px;
 }
 
@@ -183,7 +183,7 @@ button{
 	position: absolute;
 	left:0px;
 	top:395px;
-	background:url('../lib/8.png')/*#409da5*/;
+	/*background:url('../lib/8.png')/*#409da5/;*/
 	line-height:75px;
 }
 
@@ -198,7 +198,7 @@ button{
 	position: absolute;
 	left:170px;
 	top:395px;
-	background:url('../lib/9.png')/*#7d9f2a*/;
+	/*background:url('../lib/9.png')/*#7d9f2a/;*/
 	line-height:75px;
 }
 
@@ -213,7 +213,7 @@ button{
 	position: absolute;
 	left:340px;
 	top:265px;
-	background:url('../lib/10.png')/*#03417a*/;
+	/*background:url('../lib/10.png')/*#03417a/;*/
 	line-height:205px;
 }
 
@@ -228,7 +228,7 @@ button{
 	position: absolute;
 	left:770px;
 	top:265px;
-	background:url('../lib/11.png')/*#409da5*/;
+	/*background:url('../lib/11.png')/*#409da5/;*/
 	line-height:98px;
 }
 
@@ -243,7 +243,7 @@ button{
 	position: absolute;
 	left:770px;
 	top:373px;
-	background:url('../lib/12.png')/*#da8515*/;
+	/*background:url('../lib/12.png')/*#da8515/;*/
 	line-height:97px;
 }
 
@@ -251,22 +251,137 @@ button{
 	max-width: 195px;
 	max-height: 97px;
 }
-/* Suggested by iwaz - http://ilwaz.deviantart.com/ */
+
+/*********************************start my stuff***************************************************/
+
+/********button down effect***********
 a {
-box-shadow: none;
-display: block;
-width: 100%;
-height: 100%;
--webkit-transition: all 0.5s linear;
--moz-transition: all 0.5s linear;
--o-transition: all 0.5s linear;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
 }
+
 a:hover {
-box-shadow: inset 0 0 18px #260930;
--webkit-transition: all .3s ease-out;
--moz-transition: all .3s ease-out;
--o-transition: all .3s ease-out;
+    box-shadow: inset 0 0 18px #260930;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 }
+***************************************/
+
+
+/*
+input {
+	padding: 3px;
+    border: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+input:hover {
+    /*border:2px #00aef0 solid;/
+    box-shadow: 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0;
+}
+input:focus {
+    /*border:2px #00aef0 solid;/
+    border: none;
+    box-shadow: 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0, 0 0 3px #00aef0;
+}
+*/
+
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 button {
-cursor: pointer;
+    cursor: pointer;
+}
+
+div img {
+    
+}
+
+div, div img {
+    z-index: 1;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+div:hover, div:hover img {
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+}
+
+
+.lightBlue {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#409DA5), to(#66B0B7));
+    background-image: -moz-linear-gradient(top left, #409DA5, #66B0B7);
+    background-image: -webkit-linear-gradient(top left, #409DA5, #66B0B7);
+    background-image: -o-linear-gradient(top left, #409DA5, #66B0B7);
+    background-image: linear-gradient(top left, #409DA5, #66B0B7)
+}
+
+.red {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#CD432D), to(#D76857));
+    background-image: -moz-linear-gradient(top left, #CD432D, #D76857);
+    background-image: -webkit-linear-gradient(top left, #CD432D, #D76857);
+    background-image: -o-linear-gradient(top left, #CD432D, #D76857);
+    background-image: linear-gradient(top left, #CD432D, #D76857)
+}
+
+.violet {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#621354), to(#814276));
+    background-image: -moz-linear-gradient(top left, #621354, #814276);
+    background-image: -webkit-linear-gradient(top left, #621354, #814276);
+    background-image: -o-linear-gradient(top left, #621354, #814276);
+    background-image: linear-gradient(top left, #621354, #814276)
+}
+
+.darkPurple {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#672C9B), to(#8556AF));
+    background-image: -moz-linear-gradient(top left, #672C9B, #8556AF);
+    background-image: -webkit-linear-gradient(top left, #672C9B, #8556AF);
+    background-image: -o-linear-gradient(top left, #672C9B, #8556AF);
+    background-image: linear-gradient(top left, #672C9B, #8556AF)
+}
+
+.lightPurple {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#4849A6), to(#6C6DB7));
+    background-image: -moz-linear-gradient(top left, #4849A6, #6C6DB7);
+    background-image: -webkit-linear-gradient(top left, #4849A6, #6C6DB7);
+    background-image: -o-linear-gradient(top left, #4849A6, #6C6DB7);
+    background-image: linear-gradient(top left, #4849A6, #6C6DB7)
+}
+
+.orange {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#DA8515), to(#E19D43));
+    background-image: -moz-linear-gradient(top left, #DA8515, #E19D43);
+    background-image: -webkit-linear-gradient(top left, #DA8515, #E19D43);
+    background-image: -o-linear-gradient(top left, #DA8515, #E19D43);
+    background-image: linear-gradient(top left, #DA8515, #E19D43)
+}
+
+.green {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#7D9F2A), to(#97B254));
+    background-image: -moz-linear-gradient(top left, #7D9F2A, #97B254);
+    background-image: -webkit-linear-gradient(top left, #7D9F2A, #97B254);
+    background-image: -o-linear-gradient(top left, #7D9F2A, #97B254);
+    background-image: linear-gradient(top left, #7D9F2A, #97B254)
+}
+
+.darkBlue {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#03417A), to(#356794));
+    background-image: -moz-linear-gradient(top left, #03417A, #356794);
+    background-image: -webkit-linear-gradient(top left, #03417A, #356794);
+    background-image: -o-linear-gradient(top left, #03417A, #356794);
+    background-image: linear-gradient(top left, #03417A, #356794)
 }
