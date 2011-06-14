@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<!-- set your favourite bookmarks,  look at 'sketch.jpg'  and choose order of bookmarks-->
+	<bookmark-1>
+		<title>YouTube</title>
+		<url>http://youtube.com</url>
+		<thumb>youtube.png</thumb>
+	</bookmark-1>
+	<bookmark-2>
+		<title>Yahoo</title>
+		<url>http://yahoo.com</url>
+		<thumb>yahoo.png</thumb>		
+	</bookmark-2>
+	<bookmark-3>
+		<title>Grooveshark</title>
+		<url>http://grooveshark.com</url>
+		<thumb>grooveshark.png</thumb>
+	</bookmark-3>
+	<bookmark-4>
+		<title>last.fm</title>
+		<url>http://www.last.fm/</url>
+		<thumb>lastfm.png</thumb>
+	</bookmark-4>
+	<bookmark-5>
+		<title>twitter</title>
+		<url>http://twitter.com</url>
+		<thumb>twitter.png</thumb>
+	</bookmark-5>
+	<bookmark-6>
+		<title>google</title>
+		<url>http://google.com</url>
+		<thumb>google.png</thumb>
+	</bookmark-6>
+	<bookmark-7>
+		<title>facebook</title>
+		<url>http://facebook.com</url>
+		<thumb>facebook.png</thumb>
+	</bookmark-7>
+	<bookmark-8>
+		<title>BBC news</title>
+		<url>http://www.bbc.co.uk/news/</url>
+		<thumb>bbcnews.png</thumb>
+	</bookmark-8>
+	<bookmark-9>
+		<title>CNN</title>
+		<url>http://www.cnn.com</url>
+		<thumb>cnn.png</thumb>
+	</bookmark-9>
+	<bookmark-10>
+		<title>deviantART</title>
+		<url>http://deviantart.com</url>
+		<thumb>deviantart.png</thumb>
+	</bookmark-10>
+	<bookmark-11>
+		<title>wikipedia</title>
+		<url>http://wikipedia.org</url>
+		<thumb>wikipedia.png</thumb>
+	</bookmark-11>
+	<bookmark-12>
+		<title>iTunes</title>
+		<url>http://www.apple.com/itunes/</url>
+		<thumb>itunes.png</thumb>
+	</bookmark-12>
+</content>
