@@ -251,3 +251,22 @@ button{
 	max-width: 195px;
 	max-height: 97px;
 }
+/* Suggested by iwaz - http://ilwaz.deviantart.com/ */
+a {
+box-shadow: none;
+display: block;
+width: 100%;
+height: 100%;
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+-o-transition: all 0.5s linear;
+}
+a:hover {
+box-shadow: inset 0 0 18px #260930;
+-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-o-transition: all .3s ease-out;
+}
+button {
+cursor: pointer;
+}
